@@ -28,4 +28,6 @@
     <module>dshop-manager-mapper</module>
     <module>dshop-manager-service</module>
   </modules>
+  
+
 </project>
