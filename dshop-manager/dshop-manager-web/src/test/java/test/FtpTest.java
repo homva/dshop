@@ -18,9 +18,9 @@ public class FtpTest {
 			client.connect("192.168.222.181",21);
 			client.login("ftpuser", "dhw88763186");
 			client.setFileType(FTP.BINARY_FILE_TYPE);
-			FileInputStream fis = new FileInputStream(new File("‪C:/Users/dfw19/Desktop/timg1.jpg"));
+			FileInputStream fis = new FileInputStream(new File("C:/Users/dfw19/Desktop/images/mysale_top.png"));
 			client.changeWorkingDirectory("/var/www/html");
-			client.storeFile("test.jpg", fis);
+			client.storeFile("test.png", fis);
 			client.logout();
 		} catch (SocketException e) {
 			// TODO Auto-generated catch block
